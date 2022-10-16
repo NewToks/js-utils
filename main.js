@@ -7,7 +7,7 @@ Array.prototype.includesObjectWithKey = function(key){
   this.forEach(el => {
     if(el[key]) return found = true
   })
-  return found
+  return found;
 }
 
 Array.prototype.randomItem = function(){
