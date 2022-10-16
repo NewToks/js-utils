@@ -1,4 +1,6 @@
 // Everything is fine now
+// V1 release
+// V1 Is released, Yeaaah !
 Array.prototype.shuffle = function(){
   return this.sort(() => 0.5 - Math.random());
 }
