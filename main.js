@@ -1,4 +1,5 @@
 // Everything is fine now
+// V1 release
 Array.prototype.shuffle = function(){
   return this.sort(() => 0.5 - Math.random());
 }
